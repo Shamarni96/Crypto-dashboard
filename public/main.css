@@ -1,0 +1,24 @@
+body {
+    background-color: #fa003f;
+    font-family: "MetricWeb", sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    background-color: #ffcf00;
+    color: darkslategray;
+  }
+  
+  .logo {
+    font-family: "FinancierDisplayWeb", serif;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .token {
+    background-color: #0004ff;
+    padding: 10px;
+  }
